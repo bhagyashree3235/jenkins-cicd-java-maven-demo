@@ -32,5 +32,11 @@ pipeline {
 
       }
     }
-  }
+    }
+post{
+always{
+echo "build successfull"
 }
+}
+  }
+
